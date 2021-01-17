@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <title>Page Séries de CinéDay</title>
+  <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+</head>
+<body>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <h1>CinéDay - Séries</h1>
+</div>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">CinéDay - Menu</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="home.html"><i class="fas fa-home"></i> Accueil</a></li>
+        <li><a href="contact.html"><i class="fas fa-at"></i> Contact</a></li>
+        <li><a href="films.html"><i class="fas fa-film"></i> Films</a></li>
+        <li class="active"><a href="series.html"><i class="fas fa-list-alt"></i> Séries</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="column">
+    <div class="card">
+      <img src="https://i.pinimg.com/originals/da/48/d4/da48d46c45c07f4f9fa41abbeb791e0a.png" alt="Game of Thrones" style="width:95%">
+      <div class="container">
+        <h2>#1 - Game of Thrones</h2>
+        <p class="title">De David Benioff & D. B. Weiss</p>
+        <p>Disponible sur <a href="https://canalplus.com/">Canal+</a> avec un abonnement.</p>
+        <p><button id="first" onclick="window.location.href='https://www.canalplus.com/series/game-of-thrones/h/4443977_50047?autoplay=true&sc_openpartner=googlewatch'" class="button"><i class="far fa-eye"></i> Regarder <b>Game of Thrones</b></button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Breaking_Bad_logo.svg/1280px-Breaking_Bad_logo.svg.png" alt="Breaking Bad" style="width:95%">
+      <div class="container">
+        <h2>#2 - Breaking Bad</h2>
+        <p class="title">De Vince Gilligan</p>
+        <p>Disponible sur <a href="https://netflix.com/">Netflix</a> avec un abonnement.</p>
+        <p><button id="second" class="button" onclick="window.location.href='https://www.netflix.com/title/70143836?s=a&trkid=13747225&t=cp'"><i class="far fa-eye"></i> Regarder <b>Breaking Bad</b></button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/The_Walking_Dead_2010_logo.svg/1280px-The_Walking_Dead_2010_logo.svg.png" alt="The Walking Dead" style="width:95%">
+      <div class="container">
+        <h2>#3 - The Walking Dead</h2>
+        <p class="title">De Frank Darabont & Robert Kirkman</p>
+        <p>Disponible sur <a href="https://netflix.com/">Netflix</a> avec un abonnement.</p>
+        <p><button id="third" class="button" onclick="window.location.href='https://www.netflix.com/title/70177057?s=a&trkid=13747225&t=cp'"><i class="far fa-eye"></i> Regarder <b>The Walking Dead</b></button></p>
+      </div>
+    </div>
+  </div>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <h6>CinéDay <i class="fas fa-copyright"></i> 2020 - Tous droits reservés</h6>
+</div>
+
+</body>
+</html>
